@@ -65,7 +65,7 @@ Providers separate cleanly along PC1 (~41% of variance) and PC2 (~34% of varianc
 - **PCA:** eigendecomposition of the covariance matrix `C = (1/(n-1)) Xᶜᵀ Xᶜ = V Λ Vᵀ` to find the latent factors driving provider differences.
 - **SVD:** `Xᶜ = U Σ Vᵀ` — a numerically stable way to get the same principal directions as PCA (`σᵢ² / (n-1) = λᵢ`), plus a natural tool for low-rank denoising and robust ranking.
 
-Full derivations, a worked numerical example, and discussion are in [`report/LA_Final_Report.pdf`](report/LA_Final_Report.pdf) and the slide deck [`report/LA_Presentation.pdf`](report/LA_Presentation.pdf).
+Full derivations, a worked numerical example, and discussion are in [`report/LA_Final_Report.pdf`](report/LA_Final_Report (1).pdf) and the slide deck [`report/LA_Presentation.pdf`](report/LA_Presentation (2).pdf).
 
 ## Key finding
 
