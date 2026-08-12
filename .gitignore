@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Generated outputs (regeneratable via main.py)
+*.csv
+!requirements.txt
+*.png
+!report/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
